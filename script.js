@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     console.log("Creating payment with payload:", payload);
 
-    const apiKey = "185b43d2e0dfc0160ddaa454aa606ff481742f3c31fcbce7";
+    const apiKey = "ddd06ac0fa9c9c981fe9daad4a716336f5278a2d937952b8";
 
     const response = await ziniPayCreatePayment(payload, apiKey);
 
